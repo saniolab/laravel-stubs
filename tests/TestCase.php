@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Stubs\Tests;
+namespace Saniolab\Stubs\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Stubs\StubsServiceProvider;
+use Saniolab\Stubs\StubsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

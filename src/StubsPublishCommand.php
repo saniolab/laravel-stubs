@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Stubs;
+namespace Saniolab\Stubs;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
@@ -13,7 +13,7 @@ class StubsPublishCommand extends Command
 {
     use ConfirmableTrait;
 
-    protected $signature = 'spatie-stub:publish {--force : Overwrite any existing files}';
+    protected $signature = 'saniolab-stub:publish {--force : Overwrite any existing files}';
 
     protected $description = 'Publish all opinionated stubs that are available for customization';
 

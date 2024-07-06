@@ -1,3 +1,3 @@
 <?php
 
-uses(Spatie\Stubs\Tests\TestCase::class)->in('.');
+uses(Saniolab\Stubs\Tests\TestCase::class)->in('.');

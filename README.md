@@ -1,8 +1,8 @@
 # Opinionated Laravel stubs
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-stubs)
-[![run-tests](https://github.com/spatie/laravel-stubs/actions/workflows/run-tests.yml/badge.svg)](https://github.com/spatie/laravel-stubs/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-stubs)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/saniolab/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/saniolab/laravel-stubs)
+[![run-tests](https://github.com/saniolab/laravel-stubs/actions/workflows/run-tests.yml/badge.svg)](https://github.com/saniolab/laravel-stubs/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/saniolab/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/saniolab/laravel-stubs)
 
 This repo contains opinionated versions of the Laravel stubs. The most notable changes are:
 
@@ -29,7 +29,7 @@ In this [video on YouTube](https://www.youtube.com/watch?v=I-y-VSOL93I), Povilas
 You can install the package via composer:
 
 ```bash
-composer require spatie/laravel-stubs --dev
+composer require saniolab/laravel-stubs --dev
 ```
 
 If you want to keep your stubs up to date with every update, add this composer hook to your composer.json file:
@@ -37,7 +37,7 @@ If you want to keep your stubs up to date with every update, add this composer h
 ```json
 "scripts": {
     "post-update-cmd": [
-        "@php artisan spatie-stub:publish --force"
+        "@php artisan saniolab-stub:publish --force"
     ]
 }
 ```
@@ -47,7 +47,7 @@ If you want to keep your stubs up to date with every update, add this composer h
 You can publish the stubs using this command:
 
 ```bash
-php artisan spatie-stub:publish
+php artisan saniolab-stub:publish
 ```
 
 ## Testing

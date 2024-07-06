@@ -2,16 +2,22 @@
     "name": "saniolab/laravel-stubs",
     "description": "Opinionated Laravel stubs",
     "keywords": [
-        "spatie",
+        "saniolab",
         "laravel-stubs"
     ],
-    "homepage": "https://github.com/spatie/laravel-stubs",
+    "homepage": "https://github.com/saniolab/laravel-stubs",
     "license": "MIT",
     "authors": [
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
+            "role": "Developer"
+        },
+         {
+            "name": "Oliver Kaufmann",
+            "email": "oliver.kaufmann@sanio.ch",
+            "homepage": "https://www.sanio.ch",
             "role": "Developer"
         }
     ],
@@ -26,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Stubs\\": "src"
+            "Saniolab\\Stubs\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Stubs\\Tests\\": "tests"
+            "Saniolab\\Stubs\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,7 +54,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Stubs\\StubsServiceProvider"
+                "Saniolab\\Stubs\\StubsServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Stubs;
+namespace Saniolab\Stubs;
 
 use Illuminate\Support\ServiceProvider;
 
