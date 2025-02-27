@@ -27,8 +27,8 @@
     },
     "require-dev": {
         "mockery/mockery": "^1.4",
-        "orchestra/testbench": "^9.0",
-        "pestphp/pest": "^2.0"
+        "orchestra/testbench": "^9.0|^10.0",
+        "pestphp/pest": "^2.0|^3.7"
     },
     "autoload": {
         "psr-4": {

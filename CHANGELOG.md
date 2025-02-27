@@ -2,6 +2,32 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## 3.1.1 - 2025-02-20
+
+### What's Changed
+
+* Laravel 12.x Compatibility by @laravel-shift in https://github.com/spatie/laravel-stubs/pull/35
+
+### New Contributors
+
+* @laravel-shift made their first contribution in https://github.com/spatie/laravel-stubs/pull/35
+
+**Full Changelog**: https://github.com/spatie/laravel-stubs/compare/3.1.0...3.1.1
+
+## 3.1.0 - 2024-09-18
+
+### What's Changed
+
+* Updates by @Nielsvanpach in https://github.com/spatie/laravel-stubs/pull/33
+* Adds missing return types by @jsandfordhughescoop in https://github.com/spatie/laravel-stubs/pull/34
+
+### New Contributors
+
+* @Nielsvanpach made their first contribution in https://github.com/spatie/laravel-stubs/pull/33
+* @jsandfordhughescoop made their first contribution in https://github.com/spatie/laravel-stubs/pull/34
+
+**Full Changelog**: https://github.com/spatie/laravel-stubs/compare/3.0.0...3.1.0
+
 ## 3.0.0 - 2024-03-08
 
 ### What's Changed
