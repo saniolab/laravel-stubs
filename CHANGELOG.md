@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## 3.2.0 - 2026-02-22
+
+Add Laravel 13 support
+
 ## 3.1.2 - 2026-01-12
 
 ### What's Changed
