@@ -42,7 +42,7 @@
     },
     "scripts": {
         "format": "vendor/bin/php-cs-fixer fix",
-        "test": "vendor/bin/pest",
+        "test": "vendor/bin/pest --no-coverage",
         "test-coverage": "vendor/bin/pest --coverage-html coverage"
     },
     "config": {
