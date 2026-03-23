@@ -25,6 +25,13 @@ jobs:
         exclude:
           - laravel: 13.*
             php: 8.2
+        include:
+          - laravel: 13.*
+            orchestra: 10.*
+          - laravel: 12.*
+            orchestra: 9.*
+          - laravel: 11.*
+            orchestra: 8.*
 
     name: P${{ matrix.php }} - L${{ matrix.laravel }} - ${{ matrix.stability }} - ${{ matrix.os }}
 
