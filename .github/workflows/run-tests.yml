@@ -3,7 +3,7 @@ name: run-tests
 on:
   push:
     paths:
-      - **.php
+      - "**.php"
       - .github/workflows/run-tests.yml
       - phpunit.xml.dist
       - composer.json
@@ -20,7 +20,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest]
         php: [8.3, 8.2]
-        laravel: ['11.*', '12.*', '13.*']
+        laravel: ["11.*", "12.*", "13.*"]
         stability: [prefer-lowest, prefer-stable]
         exclude:
           - laravel: 13.*
